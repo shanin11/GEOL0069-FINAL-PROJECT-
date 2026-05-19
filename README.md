@@ -61,7 +61,7 @@ at scale. Sentinel-2, with its 10–20m resolution, 5-day revisit cycle, and
 freely accessible Copernicus archive, provides a consistent long-term record 
 for systematic change detection (ESA, 2022).
 
-## 3. Research Questions, Data & Pre-processing
+## Research Questions, Data & Pre-processing
 
 This project addresses two questions:
 
@@ -112,7 +112,7 @@ from the JRC Global Surface Water dataset. Unlike the GMM, the CNN processes
 Using an independent label source keeps the CNN entirely separate from the 
 GMM, making the comparison between the two methods meaningful
 
-## 5. Notebook Overview
+## Notebook Overview
 
 **01_preprocessing.ipynb**
 Fetches Sentinel-2 imagery for 2015, 2018, 2021 and 2024 via GEE, applies 
@@ -129,7 +129,7 @@ across the full image, and compares results against the GMM.
 All notebooks are adapted from GEOL0069 module skeletons — attribution is 
 noted at the top of each notebook.
 
-## 6. Results
+## Results
 
 ### GMM Classification Maps
 
@@ -201,7 +201,7 @@ to use spatial context when classifying each pixel.
 > over the study period** — a finding that underscores the public health 
 > urgency of monitoring the Aral Sea basin.
 
-## 7. Environmental Cost
+## Environmental Cost
 
 Monitoring the Aral Sea basin by field survey would require international 
 travel to Central Asia, ground transport across remote terrain, and 
@@ -231,7 +231,7 @@ Several methodological decisions kept emissions low:
 - **GEE cloud processing** — satellite preprocessing handled by Google Earth 
   Engine's infrastructure rather than locally
 
-  ## 8. Limitations and Future Work
+  ## Limitations and Future Work
 
 **Spatial and temporal resolution:** Index stacks were exported at 500m 
 resolution due to computational constraints, meaning fine-scale features 
@@ -247,7 +247,7 @@ cloud-independent monitoring. Applying the same pipeline to other
 shrinking water bodies such as Urmia Lake or Lake Chad would test 
 the transferability of the approach.
 
-  ## 9. Acknowledgements
+  ## Acknowledgements
 This project was developed for GEOL0069 AI4EO 2025/2026 at UCL. Thank you to the module team: Dr Michel Tsamados, Weibin Chen, and Shambhu Bhandari Sharma for the teaching materials this project builds on.
 
 
