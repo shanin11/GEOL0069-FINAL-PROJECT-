@@ -1,6 +1,6 @@
 # GEOL0069 Final Project
 
-Welcome to the GEOL0069 Final Project repository!
+
 
 
 ## Contents
