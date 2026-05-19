@@ -198,4 +198,28 @@ to use spatial context when classifying each pixel.
 > over the study period** — a finding that underscores the public health 
 > urgency of monitoring the Aral Sea basin.
 
+## 7. Environmental Cost
+
+Monitoring the Aral Sea basin by field survey would require international 
+travel to Central Asia, ground transport across remote terrain, and 
+potentially helicopter surveys — producing on the order of **2,000 kg CO₂**. 
+This entire computational pipeline produced less than 1 gram.
+
+![Environmental Cost Comparison](environmental_cost_comparison.png)
+
+*Comparison values are approximate estimates based on standard assumptions 
+and intended for illustrative purposes only.*
+
+Emissions per notebook (20W CPU, UK grid intensity 0.233 kg CO₂/kWh):
+
+- **Notebook 1** — 0.61 min · 0.20 Wh · 0.047 g CO₂e
+- **Notebook 2** — 0.77 min · 0.26 Wh · 0.059 g CO₂e
+- **Notebook 3** — 8.68 min · 2.89 Wh · 0.674 g CO₂e
+- **Total** — 10.07 min · 3.36 Wh · **0.78 g CO₂e** · £0.001
+
+Several methodological decisions kept emissions low — exporting imagery 
+at 500m rather than 10m reduced file sizes significantly, and subsampling 
+pixels for both the GMM and CNN avoided processing the full image during 
+training. All computation ran on CPU-only Google Colab sessions.
+
 [Add contact information here]
