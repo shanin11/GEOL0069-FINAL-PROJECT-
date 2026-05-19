@@ -217,6 +217,8 @@ Emissions per notebook (20W CPU, UK grid intensity 0.233 kg CO₂/kWh):
 - **Notebook 3** — 8.68 min · 2.89 Wh · 0.674 g CO₂e
 - **Total** — 10.07 min · 3.36 Wh · **0.78 g CO₂e** · £0.001
 
+Several methodological decisions kept emissions low:
+
 - **Reduced export resolution** — imagery exported at 500m rather than 
   Sentinel-2's native 10m, significantly reducing file sizes and processing time
 - **Pixel subsampling** — both GMM and CNN were trained on pixel subsamples 
