@@ -205,7 +205,7 @@ travel to Central Asia, ground transport across remote terrain, and
 potentially helicopter surveys — producing on the order of **2,000 kg CO₂**. 
 This entire computational pipeline produced less than 1 gram.
 
-![Environmental Cost Comparison](environmental_cost_comparison.png)
+![Environmental Cost Comparison](environmental_cost_chart.png)
 
 *Comparison values are approximate estimates based on standard assumptions 
 and intended for illustrative purposes only.*
