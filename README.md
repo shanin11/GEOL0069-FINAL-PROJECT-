@@ -231,7 +231,7 @@ Several methodological decisions kept emissions low:
 - **GEE cloud processing** — satellite preprocessing handled by Google Earth 
   Engine's infrastructure rather than locally
 
-  ## Limitations and Future Work
+## Limitations and Future Work
 
 **Spatial and temporal resolution:** Index stacks were exported at 500m 
 resolution due to computational constraints, meaning fine-scale features 
@@ -247,7 +247,7 @@ cloud-independent monitoring. Applying the same pipeline to other
 shrinking water bodies such as Urmia Lake or Lake Chad would test 
 the transferability of the approach.
 
-  ## Acknowledgements
+## Acknowledgements
 This project was developed for GEOL0069 AI4EO 2025/2026 at UCL. Thank you to the module team: Dr Michel Tsamados, Weibin Chen, and Shambhu Bhandari Sharma for the teaching materials this project builds on.
 
 
