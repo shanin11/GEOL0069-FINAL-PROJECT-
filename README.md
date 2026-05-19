@@ -139,8 +139,8 @@ noted at the top of each notebook.
 ![GMM Classification Maps](gmm_classification_maps.png)
 
 The GMM maps show a dramatic expansion of desert scrub across the basin, 
-from 854 km² in 2015 to 5,818 km² in 2024. Open water and brine remain 
-concentrated in the North Aral Sea and remnant Eastern basin. White areas 
+from 854 km² in 2015 to 5,818 km² in 2024 (see table below). Open water and brine remain 
+concentrated in the North Aral Sea and towards the west, brine is concentrated in the south aswell. White areas 
 reflect cloud-masked pixels excluded during preprocessing.
 
 ### Water Area Time Series
@@ -154,18 +154,18 @@ reflect cloud-masked pixels excluded during preprocessing.
 | Salt flat | 834 | 672 | 63 | 382 |
 | Desert scrub | 854 | 4,405 | 5,781 | 5,818 |
 
-Desert scrub expanded by **4,964 km²** over the study period — the dominant 
-land cover change in the basin. Open water showed a modest increase of 85 km², 
-likely reflecting interannual variability rather than genuine recovery.
+Desert scrub expanded by **4,964 km²** over the study period — the largest 
+land cover change in the basin. Open water interestingly showed a small increase of 85 km², 
+likely reflecting variability rather than genuine recovery.
 
 ### CNN Classification Maps
 
 ![CNN Classification Maps](cnn_classification_maps.png)
 
-The CNN maps broadly confirm the water recession trend. The anomalously large 
-water extent in 2015 is a known limitation — cloud-masked pixels filled with 
-zero values are incorrectly classified as water by the CNN. This is discussed 
-further in the limitations section.
+The CNN maps broadly confirm the water recession trend. The unusually large 
+water area in 2015 is a known issue — cloud-masked pixels (as seen in the GMM map) filled with zeros 
+are incorrectly classified as water by the CNN. This is discussed further in 
+the limitations section.
 
 ### GMM vs CNN Comparison
 
