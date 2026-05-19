@@ -1,14 +1,17 @@
-# GEOL0069 Final Project
-
-
-
+# Aral Sea Ecosystem Collapse: Water Body Change Detection Using Sentinel-2 and Machine Learning (2015–2024)
 
 ## Contents
 
-- [Introduction](#Introduction)
-- [Project Structure](#project-structure)
-- [Usage](#usage)
-- [Contributing](#contributing)
+- [Project Overview](#1-project-overview)
+- [Background and Motivation](#2-background-and-motivation)
+- [Data, Research Questions & Pre-processing](#3-data-research-questions--pre-processing)
+- [Methodology](#4-methodology)
+- [Notebook Overview](#5-notebook-overview)
+- [Results](#6-results)
+- [Environmental Cost](#7-environmental-cost)
+- [Limitations and Future Work](#8-limitations-and-future-work)
+- [Acknowledgements](#9-acknowledgements)
+- [References](#10-references)
 
 
 ## Introduction
@@ -227,5 +230,25 @@ Several methodological decisions kept emissions low:
   sessions with no GPU usage
 - **GEE cloud processing** — satellite preprocessing handled by Google Earth 
   Engine's infrastructure rather than locally
+
+  ## 8. Limitations and Future Work
+
+**Spatial and temporal resolution:** Index stacks were exported at 500m 
+resolution due to computational constraints, meaning fine-scale features 
+such as shoreline boundaries may not be captured accurately. Only four 
+time steps are analysed — annual composites across the full 2015–2024 
+archive would give a more complete picture of water loss progression.
+
+**Sentinel-2 archive:** Sentinel-2 only launched in 2015, so the most 
+dramatic Aral Sea shrinkage (1960–2000) falls outside the study period. 
+
+**Future work:** Incorporating Sentinel-1 SAR imagery would enable 
+cloud-independent monitoring. Applying the same pipeline to other 
+shrinking water bodies such as Urmia Lake or Lake Chad would test 
+the transferability of the approach.
+
+  ## 9. Acknowledgements
+This project was developed for GEOL0069 AI4EO 2025/2026 at UCL. Thank you to the module team: Dr Michel Tsamados, Weibin Chen, and Shambhu Bhandari Sharma for the teaching materials this project builds on.
+
 
 [Add contact information here]
