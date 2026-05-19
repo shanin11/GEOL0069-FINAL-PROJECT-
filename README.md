@@ -4,7 +4,7 @@
 
 - [Introduction](#Introduction)
 - [Background and Motivation](#background-and-motivation)
-- [Data, Research Questions & Pre-processing](#data-research-questions--pre-processing)
+- [Research Questions, Data & Pre-processing](#research-questions-data--pre-processing)
 - [Methodology](#methodology)
 - [Notebook Overview](#notebook-overview)
 - [Results](#results)
