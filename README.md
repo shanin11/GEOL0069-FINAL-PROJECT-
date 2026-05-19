@@ -36,8 +36,6 @@ arid environment.
 
 ## Background and Motivation
 
-## 2. Background and Motivation
-
 The Aral Sea, located on the border of Kazakhstan and Uzbekistan, was once 
 one of the largest inland bodies of water on Earth. Soviet-era irrigation 
 projects from the 1960s diverted its two feeding rivers towards cotton 
@@ -137,15 +135,19 @@ noted at the top of each notebook.
 ### GMM Classification Maps
 
 ![GMM Classification Maps](gmm_classification_maps.png)
+*Figure 1: GMM land cover classification across the Aral Sea basin for 
+2015, 2018, 2021 and 2024. White areas reflect cloud-masked pixels 
+excluded during preprocessing.*
 
 The GMM maps show a dramatic expansion of desert scrub across the basin, 
-from 854 km² in 2015 to 5,818 km² in 2024 (see table below). Open water and brine remain 
-concentrated in the North Aral Sea and towards the west, brine is concentrated in the south aswell. White areas 
-reflect cloud-masked pixels excluded during preprocessing.
+from 854 km² in 2015 to 5,818 km² in 2024. Open water and brine remain 
+concentrated in the North Aral Sea and towards the west, with brine also 
+present in the south.
 
 ### Water Area Time Series
 
 ![Water Area Time Series](water_area_timeseries.png)
+*Figure 2: Area (km²) per land cover class across all four time periods.*
 
 | Class | 2015 (km²) | 2018 (km²) | 2021 (km²) | 2024 (km²) |
 |---|---|---|---|---|
@@ -155,22 +157,30 @@ reflect cloud-masked pixels excluded during preprocessing.
 | Desert scrub | 854 | 4,405 | 5,781 | 5,818 |
 
 Desert scrub expanded by **4,964 km²** over the study period — the largest 
-land cover change in the basin. Open water interestingly showed a small increase of 85 km², 
-likely reflecting variability rather than genuine recovery.
+land cover change in the basin. Open water interestingly showed a small increase of 
+85 km², likely reflecting interannual variability rather than genuine 
+recovery.
 
 ### CNN Classification Maps
 
 ![CNN Classification Maps](cnn_classification_maps.png)
+*Figure 3: CNN water/non-water classification for 2015, 2018, 2021 and 
+2024. The anomalously large water extent in 2015 is a known limitation 
+discussed in the limitations section.*
 
-The CNN maps broadly confirm the water recession trend. The unusually large 
-water area in 2015 is a known issue — cloud-masked pixels (as seen in the GMM map) filled with zeros 
-are incorrectly classified as water by the CNN. This is discussed further in 
-the limitations section.
+The CNN maps broadly confirm the water recession trend from 2018 onwards. 
+The unusually large water area in 2015 is caused by cloud-masked pixels 
+filled with zeros being incorrectly classified as water by the CNN.
 
 ### GMM vs CNN Comparison
 
-![GMM vs CNN Comparison](gmm_vs_cnn_comparison.png)
+![GMM vs CNN Comparison](gmm_vs_cnn_compared.png)
+*Figure 4: Water area estimates from GMM and CNN across all four years. 
+Both methods show a declining trend from 2018 to 2024.*
+
 ![GMM vs CNN Map 2024](gmm_vs_cnn_map_2024.png)
+*Figure 5: Side-by-side classification maps for 2024 showing where the 
+two methods agree and disagree on water extent.*
 
 | Metric | CNN |
 |---|---|
@@ -179,11 +189,11 @@ the limitations section.
 | F1 — Non-water | 0.45 |
 
 Both methods identify the same main water bodies but the CNN detects more 
-scattered smaller water features than the GMM, likely due to its ability 
-to use spatial context when classifying each pixel. The CNN achieved an overall accuracy of 0.64 on the held-out test set. 
-Water detection (F1 = 0.74) outperformed non-water classification 
-(F1 = 0.45), suggesting the model is better at identifying water pixels 
-than distinguishing between the various non-water surface types.
+scattered smaller water features, likely due to its use of spatial context 
+when classifying each pixel shown in figure 5. The CNN achieved an overall accuracy of 0.64, 
+with water detection (F1 = 0.74) outperforming non-water classification 
+(F1 = 0.45).
+
 
 ### Key Findings
 
@@ -193,8 +203,6 @@ than distinguishing between the various non-water surface types.
   differences, suggesting the results are robust
 - The 2015 CNN map is affected by a known data limitation and should be 
   interpreted with caution
-
-
 
 > **Why this matters**
 >
