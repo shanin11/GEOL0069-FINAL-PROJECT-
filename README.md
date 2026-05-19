@@ -36,6 +36,8 @@ arid environment.
 
 ## Background and Motivation
 
+## 2. Background and Motivation
+
 The Aral Sea, located on the border of Kazakhstan and Uzbekistan, was once 
 one of the largest inland bodies of water on Earth. Soviet-era irrigation 
 projects from the 1960s diverted its two feeding rivers towards cotton 
@@ -46,14 +48,18 @@ twentieth century (Micklin, 2007).
 The exposed lakebed — now the Aralkum Desert — has become one of Central 
 Asia's most active dust and salt storm sources, with storms growing more 
 powerful as more of the lake bottom is exposed (Indoitu et al., 2015). 
-Tracking this ongoing change is directly relevant to the health of millions 
-of people across the region (Encyclopaedia Britannica, 2024).
+The dust is heavily contaminated with salt, fertilisers and pesticides, 
+causing throat cancer, anaemia and kidney disease in surrounding communities, 
+with infant mortality among the highest in the world (Encyclopaedia 
+Britannica, 2024). Tracking the ongoing expansion of bare surfaces is 
+therefore not only an environmental monitoring task but one with direct 
+public health implications.
 
 This project classifies the basin into four land cover types — open water, 
 brine/shallow water, salt flat, and desert scrub — chosen because they 
 represent the sequential stages of ecological collapse, from open water 
 through progressive evaporation and salinisation to bare desert, allowing 
-the drying process to be tracked and quantified over time (Löw et al., 2013).
+the drying process to be tracked and quantified over time.
 
 Satellite remote sensing is well suited to this monitoring task — field 
 surveys in the basin are logistically difficult and prohibitively expensive 
