@@ -156,6 +156,9 @@ present in the south.
 | Salt flat | 834 | 672 | 63 | 382 |
 | Desert scrub | 854 | 4,405 | 5,781 | 5,818 |
 
+*Table 1: GMM land cover area estimates (km²) for the Aral Sea basin 
+across all four time periods.*
+
 Desert scrub expanded by **4,964 km²** over the study period — the largest 
 land cover change in the basin. Open water interestingly showed a small increase of 
 85 km², likely reflecting interannual variability rather than genuine 
