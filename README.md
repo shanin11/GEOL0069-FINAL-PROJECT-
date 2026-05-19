@@ -218,8 +218,7 @@ with water detection (F1 = 0.74) outperforming non-water classification
 ## Environmental Cost
 
 Monitoring the Aral Sea basin by field survey would require international 
-travel to Central Asia, ground transport across remote terrain, and 
-potentially helicopter surveys — producing on the order of **2,000 kg CO₂**. 
+travel to Central Asia and further transport — producing around **2,000 kg CO₂**. 
 This entire computational pipeline produced less than 1 gram.
 
 ![Environmental Cost Comparison](environmental_cost_chart.png)
@@ -247,19 +246,25 @@ Several methodological decisions kept emissions low:
 
 ## Limitations and Future Work
 
-**Spatial and temporal resolution:** Index stacks were exported at 500m 
-resolution due to computational constraints, meaning fine-scale features 
-such as shoreline boundaries may not be captured accurately. Only four 
-time steps are analysed — annual composites across the full 2015–2024 
-archive would give a more complete picture of water loss progression.
+**CNN 2015 anomaly:** Cloud-masked pixels filled with zero values are 
+incorrectly classified as water during the CNN rollout, producing an 
+anomalously large water extent in 2015. Masking these pixels out of the 
+final classification rather than filling them with zeros would resolve 
+this issue in future work.
+
+**Spatial and temporal resolution:**  Imagery was exported at 500m resolution 
+due to memory limitations in Google Colab, which may miss fine-scale 
+shoreline detail. Only four time steps are analysed — more frequent 
+composites would give a fuller picture of how water loss progressed 
+over time.
 
 **Sentinel-2 archive:** Sentinel-2 only launched in 2015, so the most 
 dramatic Aral Sea shrinkage (1960–2000) falls outside the study period. 
 
-**Future work:** Incorporating Sentinel-1 SAR imagery would enable 
-cloud-independent monitoring. Applying the same pipeline to other 
-shrinking water bodies such as Urmia Lake or Lake Chad would test 
-the transferability of the approach.
+**Future work:** Using Sentinel-1 radar imagery would allow monitoring 
+regardless of cloud cover. Testing the same pipeline on other shrinking 
+lakes such as Urmia Lake or Lake Chad would show how well the approach 
+transfers to different regions.
 
 ## Acknowledgements
 This project was developed for GEOL0069 AI4EO 2025/2026 at UCL. Thank you to the module team: Dr Michel Tsamados, Weibin Chen, and Shambhu Bhandari Sharma for the teaching materials this project builds on.
