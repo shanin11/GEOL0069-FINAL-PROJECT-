@@ -78,24 +78,21 @@ This project addresses two questions:
    compare in their ability to detect and quantify these changes?
 
 All imagery is sourced from the Sentinel-2 Level-2A surface reflectance 
-product, accessed via Google Earth Engine (GEE) through the 
-`COPERNICUS/S2_SR_HARMONIZED` collection (ESA, 2015). Training labels 
+data, accessed via Google Earth Engine (GEE) (ESA, 2015). Training labels 
 for the CNN are sourced independently from the JRC Global Surface Water 
 dataset, also accessed via GEE.
 
-Three water-sensitive spectral indices are computed from the imagery:
+Three water-sensitive spectral indices are computed:
 
-- **NDWI** (Green − NIR) / (Green + NIR) — detects open water using 
-  bands B3 and B8 (McFeeters, 1996)
+- **NDWI** (Green − NIR) / (Green + NIR) — detects open water (McFeeters, 1996)
 - **MNDWI** (Green − SWIR) / (Green + SWIR) — separates water from 
-  salt flat and bare soil using bands B3 and B11 (Xu, 2006)
+  salt flat and bare soil (Xu, 2006)
 - **NDVI** (NIR − Red) / (NIR + Red) — distinguishes desert scrub 
-  from bare salt crust using bands B8 and B4 (ESA, 2015)
+  from bare salt crust (ESA, 2015)
 
-Water-focused indices are used rather than vegetation indices, as the 
-primary spectral challenge in the Aral Sea basin is separating open 
-water and shallow brine from dry salt flat — not distinguishing 
-vegetation types.
+Water-focused indices are used rather than vegetation indices, as the key 
+challenge in the Aral Sea basin is separating open water and shallow brine 
+from dry salt flat.
 
 ## Methodology
 
@@ -108,15 +105,15 @@ ability to detect water body change across the Aral Sea basin.
 training labels. GMM is chosen over K-means as it assigns soft probabilistic 
 class memberships rather than hard boundaries, better reflecting the gradual 
 transitions between land cover types in an arid environment. The model is 
-fitted on 2015 imagery and applied consistently across all four years, 
-ensuring pixel count changes reflect genuine land cover change rather than 
-model variation.
+trained on 2015 imagery and applied to all four years without retraining, 
+so that any changes in pixel counts genuinely reflect land cover change 
+rather than the model behaving differently each year.
 
 **Convolutional Neural Network (CNN)** — trained on water occurrence labels 
 from the JRC Global Surface Water dataset. Unlike the GMM, the CNN processes 
 3×3 spatial patches, incorporating neighbourhood context around each pixel. 
 Using an independent label source keeps the CNN entirely separate from the 
-GMM, making the comparison between the two methods meaningful
+GMM, making the comparison between the two methods meaningful.
 
 ## Notebook Overview
 
@@ -132,7 +129,7 @@ maps and a water area time series for each year.
 Fetches JRC water labels, trains a CNN on 3×3 spatial patches, rolls it out 
 across the full image, and compares results against the GMM.
 
-All notebooks are adapted from GEOL0069 module skeletons — attribution is 
+All notebooks are adapted from GEOL0069 Jupyter Notebook — attribution is 
 noted at the top of each notebook.
 
 ## Results
