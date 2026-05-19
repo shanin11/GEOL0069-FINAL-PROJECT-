@@ -140,7 +140,7 @@ noted at the top of each notebook.
 excluded during preprocessing.*
 
 The GMM maps show a dramatic expansion of desert scrub across the basin, 
-from 854 km² in 2015 to 5,818 km² in 2024. Open water and brine remain 
+from 854 km² in 2015 to 5,818 km² in 2024 (see table 1). Open water and brine remain 
 concentrated in the North Aral Sea and towards the west, with brine also 
 present in the south.
 
