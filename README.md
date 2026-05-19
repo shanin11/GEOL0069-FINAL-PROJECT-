@@ -2,16 +2,16 @@
 
 ## Contents
 
-- [Project Overview](#1-project-overview)
-- [Background and Motivation](#2-background-and-motivation)
-- [Data, Research Questions & Pre-processing](#3-data-research-questions--pre-processing)
-- [Methodology](#4-methodology)
-- [Notebook Overview](#5-notebook-overview)
-- [Results](#6-results)
-- [Environmental Cost](#7-environmental-cost)
-- [Limitations and Future Work](#8-limitations-and-future-work)
-- [Acknowledgements](#9-acknowledgements)
-- [References](#10-references)
+- [Introduction](#Introduction)
+- [Background and Motivation](#background-and-motivation)
+- [Data, Research Questions & Pre-processing](#data-research-questions--pre-processing)
+- [Methodology](#methodology)
+- [Notebook Overview](#notebook-overview)
+- [Results](#results)
+- [Environmental Cost](#environmental-cost)
+- [Limitations and Future Work](#limitations-and-future-work)
+- [Acknowledgements](#acknowledgements)
+- [References](#references)
 
 
 ## Introduction
