@@ -271,8 +271,7 @@ over time.
 **Sentinel-2 archive:** Sentinel-2 only launched in 2015, so the most 
 dramatic Aral Sea shrinkage (1960–2000) falls outside the study period. 
 
-**Future work:** Using Sentinel-1 radar imagery would allow monitoring 
-regardless of cloud cover. Testing the same pipeline on other shrinking 
+**Future work:** Testing the same pipeline on other shrinking 
 lakes such as Urmia Lake or Lake Chad would show how well the approach 
 transfers to different regions.
 
