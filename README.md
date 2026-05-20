@@ -100,7 +100,7 @@ derived from them.*
 
 ## Methodology
 
-![AI Workflow](ai_workflow.png)
+![AI Workflow](ai_workflow_new.png)
 *Figure 2: AI methodology workflow showing the shared preprocessing 
 pipeline and the two parallel classification approaches — GMM 
 (unsupervised) and CNN (supervised) — converging at the final 
