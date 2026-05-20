@@ -76,7 +76,7 @@ This project addresses two questions:
    compare in their ability to detect and quantify these changes?
 
 All imagery is sourced from the Sentinel-2 Level-2A surface reflectance 
-data, accessed via Google Earth Engine (GEE) (ESA, 2015). Training labels 
+data, accessed via Google Earth Engine (GEE). Training labels 
 for the CNN are sourced independently from the JRC Global Surface Water 
 dataset, also accessed via GEE.
 
