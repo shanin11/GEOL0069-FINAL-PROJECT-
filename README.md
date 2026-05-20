@@ -111,19 +111,17 @@ for full implementation details.*
 This project implements two classification approaches and compares their 
 ability to detect water body change across the Aral Sea basin.
 
-**Gaussian Mixture Model (GMM)** — an unsupervised method requiring no 
-training labels. GMM is chosen over K-means as it assigns soft probabilistic 
-class memberships rather than hard boundaries, better reflecting the gradual 
-transitions between land cover types in an arid environment. The model is 
-trained on 2015 imagery and applied to all four years without retraining, 
-so that any changes in pixel counts genuinely reflect land cover change 
-rather than the model behaving differently each year.
+**GMM** is chosen over K-means as it assigns soft probabilistic class 
+memberships rather than hard boundaries, better reflecting the gradual 
+transitions between land cover types in an arid environment. The model 
+is trained on 2015 imagery and applied to all four years without 
+retraining, ensuring pixel count changes reflect genuine land cover 
+change.
 
-**Convolutional Neural Network (CNN)** — trained on water occurrence labels 
-from the JRC Global Surface Water dataset. Unlike the GMM, the CNN processes 
-3×3 spatial patches, incorporating neighbourhood context around each pixel. 
-Using an independent label source keeps the CNN entirely separate from the 
-GMM, making the comparison between the two methods meaningful.
+**CNN** processes 3×3 spatial patches incorporating neighbourhood 
+context around each pixel, trained on JRC Global Surface Water labels 
+entirely independently of the GMM — making the comparison between the 
+two methods meaningful.
 
 ## Notebook Overview
 
