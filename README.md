@@ -63,7 +63,7 @@ Satellite remote sensing is well suited to this monitoring task — field
 surveys in the basin are logistically difficult and prohibitively expensive 
 at scale. Sentinel-2, with its 10–20m resolution, 5-day revisit cycle, and 
 freely accessible Copernicus archive, provides a consistent long-term record 
-for systematic change detection (ESA, 2022).
+for systematic change detection (ESA, 2015).
 
 ## Research Questions, Data & Pre-processing
 
@@ -87,7 +87,7 @@ Three water-sensitive spectral indices are computed:
 - **MNDWI** (Modified Normalised Difference Water Index): (Green − SWIR) / (Green + SWIR) 
   — separates water from salt flat and bare soil (Xu, 2006)
 - **NDVI** (Normalised Difference Vegetation Index): (NIR − Red) / (NIR + Red) 
-  — distinguishes desert scrub from bare salt crust (ESA, 2022)
+  — distinguishes desert scrub from bare salt crust (ESA, 2015)
 
 Water-focused indices are used rather than vegetation indices, as the key 
 challenge in the Aral Sea basin is separating open water and shallow brine 
@@ -279,7 +279,6 @@ transfers to different regions.
 This project was developed for GEOL0069 AI4EO 2025/2026 at UCL. Thank you to the module team: Dr Michel Tsamados, Weibin Chen, and Shambhu Bhandari Sharma for the teaching materials this project builds on.
 
 ## References 
-## 10. References
 
 - Britannica (2026). Aral Sea. Available at: https://www.britannica.com/place/Aral-Sea
 
