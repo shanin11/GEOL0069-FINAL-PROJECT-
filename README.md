@@ -104,7 +104,9 @@ derived from them.*
 *Figure 2: AI methodology workflow showing the shared preprocessing 
 pipeline and the two parallel classification approaches — GMM 
 (unsupervised) and CNN (supervised) — converging at the final 
-GMM vs CNN comparison.*
+GMM vs CNN comparison. Blue = Notebook 1 (preprocessing), Green = 
+Notebook 2 (GMM), Purple = Notebook 3 (CNN). Refer to the notebooks 
+for full implementation details.*
 
 This project implements two classification approaches and compares their 
 ability to detect water body change across the Aral Sea basin.
