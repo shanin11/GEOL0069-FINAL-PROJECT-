@@ -82,19 +82,29 @@ dataset, also accessed via GEE.
 
 Three water-sensitive spectral indices are computed:
 
-- **NDWI** (Green − NIR) / (Green + NIR) — detects open water (McFeeters, 1996)
-- **MNDWI** (Green − SWIR) / (Green + SWIR) — separates water from 
-  salt flat and bare soil (Xu, 2006)
-- **NDVI** (NIR − Red) / (NIR + Red) — distinguishes desert scrub 
-  from bare salt crust (ESA, 2015)
+- **NDWI** (Normalised Difference Water Index): (Green − NIR) / (Green + NIR) 
+  — detects open water (McFeeters, 1996)
+- **MNDWI** (Modified Normalised Difference Water Index): (Green − SWIR) / (Green + SWIR) 
+  — separates water from salt flat and bare soil (Xu, 2006)
+- **NDVI** (Normalised Difference Vegetation Index): (NIR − Red) / (NIR + Red) 
+  — distinguishes desert scrub from bare salt crust (ESA, 2022)
 
 Water-focused indices are used rather than vegetation indices, as the key 
 challenge in the Aral Sea basin is separating open water and shallow brine 
 from dry salt flat.
 
+![Sentinel-2 Figure](THE_SATELLITE_-_SENTINEL_2.png)
+*Figure 1: Sentinel-2 satellite overview showing the four spectral bands 
+used in this project (B3, B4, B8, B11) and the water-sensitive indices 
+derived from them.*
+
 ## Methodology
 
-*INSERT FLOW CHART*
+![AI Workflow](AI_WORKFLOW.png)
+*Figure 2: AI methodology workflow showing the shared preprocessing 
+pipeline and the two parallel classification approaches — GMM 
+(unsupervised) and CNN (supervised) — converging at the final 
+GMM vs CNN comparison.*
 
 This project implements two classification approaches and compares their 
 ability to detect water body change across the Aral Sea basin.
