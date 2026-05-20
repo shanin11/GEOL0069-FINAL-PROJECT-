@@ -93,14 +93,14 @@ Water-focused indices are used rather than vegetation indices, as the key
 challenge in the Aral Sea basin is separating open water and shallow brine 
 from dry salt flat.
 
-![Sentinel-2 Figure](sentinel_2.png)
+![Sentinel-2 Figure](figures/sentinel_2.png)
 *Figure 1: Sentinel-2 satellite overview showing the four spectral bands 
 used in this project (B3, B4, B8, B11) and the water-sensitive indices 
 derived from them.*
 
 ## Methodology
 
-![AI Workflow](ai_workflow_new.png)
+![AI Workflow](figures/ai_workflow_new.png)
 *Figure 2: AI methodology workflow showing the shared preprocessing 
 pipeline and the two parallel classification approaches — GMM 
 (unsupervised) and CNN (supervised) — converging at the final 
@@ -144,7 +144,7 @@ noted at the top of each notebook.
 
 ### GMM Classification Maps
 
-![GMM Classification Maps](gmm_classification_maps.png)
+![GMM Classification Maps](figures/gmm_classification_maps.png)
 *Figure 1: GMM land cover classification across the Aral Sea basin for 
 2015, 2018, 2021 and 2024. White areas reflect cloud-masked pixels 
 excluded during preprocessing.*
@@ -156,7 +156,7 @@ present in the south.
 
 ### Water Area Time Series
 
-![Water Area Time Series](water_area_timeseries.png)
+![Water Area Time Series](figures/water_area_timeseries.png)
 *Figure 2: Area (km²) per land cover class across all four time periods.*
 
 | Class | 2015 (km²) | 2018 (km²) | 2021 (km²) | 2024 (km²) |
@@ -176,7 +176,7 @@ recovery.
 
 ### CNN Classification Maps
 
-![CNN Classification Maps](cnn_classification_maps.png)
+![CNN Classification Maps](figures/cnn_classification_maps.png)
 *Figure 3: CNN water/non-water classification for 2015, 2018, 2021 and 
 2024. The anomalously large water extent in 2015 is a known limitation 
 discussed in the limitations section.*
@@ -187,11 +187,11 @@ filled with zeros being incorrectly classified as water by the CNN.
 
 ### GMM vs CNN Comparison
 
-![GMM vs CNN Comparison](gmm_vs_cnn_compared.png)
+![GMM vs CNN Comparison](figures/gmm_vs_cnn_compared.png)
 *Figure 4: Water area estimates from GMM and CNN across all four years. 
 Both methods show a declining trend from 2018 to 2024.*
 
-![GMM vs CNN Map 2024](gmm_vs_cnn_map_2024.png)
+![GMM vs CNN Map 2024](figures/gmm_vs_cnn_map_2024.png)
 *Figure 5: Side-by-side classification maps for 2024 showing where the 
 two methods agree and disagree on water extent.*
 
@@ -234,7 +234,7 @@ Monitoring the Aral Sea basin by field survey would require international
 travel to Central Asia and further transport — producing around **2,000 kg CO₂**. 
 This entire computational pipeline produced less than 1 gram.
 
-![Environmental Cost Comparison](environmental_cost_chart.png)
+![Environmental Cost Comparison](figures/environmental_cost_chart.png)
 
 *Comparison values are approximate estimates based on standard assumptions 
 and intended for illustrative purposes only.*
