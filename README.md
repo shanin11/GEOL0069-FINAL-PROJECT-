@@ -278,5 +278,14 @@ transfers to different regions.
 ## Acknowledgements
 This project was developed for GEOL0069 AI4EO 2025/2026 at UCL. Thank you to the module team: Dr Michel Tsamados, Weibin Chen, and Shambhu Bhandari Sharma for the teaching materials this project builds on.
 
+## References 
+*Britannica (2026). Aral Sea. Available at: https://www.britannica.com/place/Aral-Sea 
+*ESA (2015). SENTINEL-2 User Handbook Sentinel-2 User Handbook.Available at: https://sentinels.copernicus.eu/documents/247904/685211/Sentinel-2_User_Handbook (Accessed: 17 May 2026)
+*Indoitu, R., Kozhoridze, G., Batyrbaeva, M., Vitkovskaya, I., Orlovsky, N., Blumberg, D. and Orlovsky, L. (2015). ‘Dust emission and environmental changes in the dried bottom of the Aral Sea’, Aeolian Research, 17, pp.101–115. doi:10.1016/j.aeolia.2015.02.004.
+*McFEETERS, S.K. (1996). ‘The use of the Normalized Difference Water Index (NDWI) in the delineation of open water features’, International Journal of Remote Sensing, 17(7), pp.1425–1432. doi:10.1080/01431169608948714.
+*Micklin, P. (2007). ‘The Aral Sea Disaster’, The Aral Sea Disaster,35, pp.47-72. doi: 10.1146/annurev.earth.35.031306.140120.
+*Tsamados, M. and Chen, W. (2022) GEOL0069: Artificial Intelligence for Earth Observation – course notebook. University College London. Available at: https://cpomucl.github.io/GEOL0069-AI4EO/intro.html
+*Xu, H. (2006). ‘Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery’, International Journal of Remote Sensing, 27(14), pp.3025–3033. doi:10.1080/01431160600589179.
+
 
 [Add contact information here]
