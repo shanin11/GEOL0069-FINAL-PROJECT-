@@ -93,14 +93,14 @@ Water-focused indices are used rather than vegetation indices, as the key
 challenge in the Aral Sea basin is separating open water and shallow brine 
 from dry salt flat.
 
-![Sentinel-2 Figure](THE_SATELLITE_-_SENTINEL_2.png)
+![Sentinel-2 Figure](sentinel_2.png)
 *Figure 1: Sentinel-2 satellite overview showing the four spectral bands 
 used in this project (B3, B4, B8, B11) and the water-sensitive indices 
 derived from them.*
 
 ## Methodology
 
-![AI Workflow](AI_WORKFLOW.png)
+![AI Workflow](ai_workflow.png)
 *Figure 2: AI methodology workflow showing the shared preprocessing 
 pipeline and the two parallel classification approaches — GMM 
 (unsupervised) and CNN (supervised) — converging at the final 
