@@ -284,6 +284,3 @@ This project was developed for GEOL0069 AI4EO 2025/2026 at UCL. Thank you to the
 - Tsamados, M. and Chen, W. (2022) GEOL0069: Artificial Intelligence for Earth Observation – course notebook. University College London. Available at: https://cpomucl.github.io/GEOL0069-AI4EO/intro.html
 
 - Xu, H. (2006). 'Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery', International Journal of Remote Sensing, 27(14), pp.3025–3033. doi:10.1080/01431160600589179.
-
-
-[Add contact information here]
