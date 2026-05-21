@@ -3,10 +3,9 @@
 ## Contents
 
 - [Introduction](#Introduction)
-- [Background and Motivation](#background-and-motivation)
-- [Research Questions, Data & Pre-processing](#research-questions-data--pre-processing)
+- [Project Background](#project-background)
+- [Research Questions, Data Collection & Preparation](#research-questions-data-collection--preparation)
 - [Methodology](#methodology)
-- [Notebook Overview](#notebook-overview)
 - [Results](#results)
 - [Environmental Cost](#environmental-cost)
 - [Limitations and Future Work](#limitations-and-future-work)
@@ -34,7 +33,7 @@ Together these allow a direct assessment of how an unsupervised and a supervised
 approach differ in detecting water body change across a spectrally complex, 
 arid environment.
 
-## Background and Motivation
+## Project Background
 
 The Aral Sea, located on the border of Kazakhstan and Uzbekistan, was once 
 one of the largest inland bodies of water on Earth. Soviet-era irrigation 
@@ -65,7 +64,7 @@ at scale. Sentinel-2, with its 10–20m resolution, 5-day revisit cycle, and
 freely accessible Copernicus archive, provides a consistent long-term record 
 for systematic change detection (ESA, 2015).
 
-## Research Questions, Data & Pre-processing
+## Research Questions, Data Collection & Preparation
 
 This project addresses two questions:
 
@@ -104,7 +103,7 @@ derived from them.*
 *Figure 2: AI methodology workflow showing the shared preprocessing 
 pipeline and the two parallel classification approaches — GMM 
 (unsupervised) and CNN (supervised) — converging at the final 
-GMM vs CNN comparison. Blue = Notebook 1 (preprocessing), Green = 
+GMM vs CNN comparison. Blue = Notebook 1 (Data Collection), Green = 
 Notebook 2 (GMM), Purple = Notebook 3 (CNN). Refer to the notebooks 
 for full implementation details.*
 
@@ -120,21 +119,7 @@ context around each pixel, trained on JRC Global Surface Water labels
 entirely independently of the GMM — making the comparison between the 
 two methods meaningful.
 
-## Notebook Overview
-
-**01_preprocessing.ipynb**
-Fetches Sentinel-2 imagery for 2015, 2018, 2021 and 2024 via GEE, applies 
-cloud masking, computes NDWI/MNDWI/NDVI, and exports GeoTIFFs to Google Drive.
-
-**02_unsupervised_gmm.ipynb**
-Loads the index stacks, applies GMM classification, and produces land cover 
-maps and a water area time series for each year.
-
-**03_supervised_cnn.ipynb**
-Fetches JRC water labels, trains a CNN on 3×3 spatial patches, rolls it out 
-across the full image, and compares results against the GMM.
-
-All notebooks are adapted from GEOL0069 Jupyter Notebook — attribution is 
+Take a look at the notebooks attached for further insight into the methodology. All notebooks are adapted from GEOL0069 Jupyter Notebook — attribution is 
 noted at the top of each notebook.
 
 ## Results
@@ -205,14 +190,22 @@ with water detection (F1 = 0.74) outperforming non-water classification
 (F1 = 0.45).
 
 
-### Key Findings
+### Key Findings & Adressing Research Questions
 
-- Desert scrub expanded by **4,964 km²** between 2015 and 2024 — the 
-  dominant land cover change in the basin
-- Both methods confirm the water recession trend despite methodological 
-  differences, suggesting the results are robust
-- The 2015 CNN map is affected by a known data limitation and should be 
-  interpreted with caution
+**Question 1 — Land cover change (2015–2024):**
+Desert scrub showed the most dramatic change, expanding by **4,964 km²** 
+across the basin. Open water remained relatively stable, fluctuating 
+between 126 and 317 km², likely reflecting interannual variability 
+rather than genuine recovery.
+
+**Question 2 — GMM vs CNN:**
+Both methods confirmed the water recession trend and agreed on the 
+location of the main water bodies, suggesting the results are robust 
+despite methodological differences. The GMM produced more conservative, 
+interpretable results across four land cover classes. The CNN detected 
+more scattered water features due to its use of spatial context, though 
+the 2015 map is affected by a known data limitation and should be 
+interpreted with caution.
 
 > **Why this matters**
 >
@@ -249,8 +242,6 @@ Several methodological decisions kept emissions low:
   Sentinel-2's native 10m, significantly reducing file sizes and processing time
 - **Pixel subsampling** — both GMM and CNN were trained on pixel subsamples 
   rather than the full image, avoiding unnecessary computation
-- **CPU-only sessions** — all computation ran on CPU-only Google Colab 
-  sessions with no GPU usage
 - **GEE cloud processing** — satellite preprocessing handled by Google Earth 
   Engine's infrastructure rather than locally
 
