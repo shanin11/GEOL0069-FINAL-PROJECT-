@@ -277,7 +277,7 @@ This project was developed for GEOL0069 AI4EO 2025/2026 at UCL. Thank you to the
 
 - Indoitu, R., Kozhoridze, G., Batyrbaeva, M., Vitkovskaya, I., Orlovsky, N., Blumberg, D. and Orlovsky, L. (2015). 'Dust emission and environmental changes in the dried bottom of the Aral Sea', Aeolian Research, 17, pp.101–115. doi:10.1016/j.aeolia.2015.02.004.
 
-- McFEETERS, S.K. (1996). 'The use of the Normalized Difference Water Index (NDWI) in the delineation of open water features', International Journal of Remote Sensing, 17(7), pp.1425–1432. doi:10.1080/01431169608948714.
+- McFeeters, S.K. (1996). 'The use of the Normalized Difference Water Index (NDWI) in the delineation of open water features', International Journal of Remote Sensing, 17(7), pp.1425–1432. doi:10.1080/01431169608948714.
 
 - Micklin, P. (2007). 'The Aral Sea Disaster', The Aral Sea Disaster, 35, pp.47-72. doi:10.1146/annurev.earth.35.031306.140120.
 
