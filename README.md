@@ -233,8 +233,8 @@ Emissions per notebook (20W CPU, UK grid intensity 0.233 kg CO₂/kWh):
 
 - **Notebook 1** — 0.61 min · 0.20 Wh · 0.047 g CO₂e
 - **Notebook 2** — 0.77 min · 0.26 Wh · 0.059 g CO₂e
-- **Notebook 3** — 8.68 min · 2.89 Wh · 0.674 g CO₂e
-- **Total** — 10.07 min · 3.36 Wh · **0.78 g CO₂e** · £0.001
+- **Notebook 3** — 1.32 min · 0.3507 Wh · 0.0817 g CO₂e
+- **Total** — 2.70 min · 0.8115 Wh · **0.2101 g CO₂e** · £0.0003
 
 Several methodological decisions kept emissions low:
 
@@ -255,8 +255,8 @@ this issue in future work.
 
 **Spatial and temporal resolution:**  Imagery was exported at 500m resolution 
 due to memory limitations in Google Colab, which may miss fine-scale 
-shoreline detail. Only four time steps are analysed — more frequent 
-composites would give a fuller picture of how water loss progressed 
+shoreline detail. Also, only four time steps are analysed — more frequent 
+time steps would give a fuller picture of how water loss progressed 
 over time.
 
 **Sentinel-2 archive:** Sentinel-2 only launched in 2015, so the most 
