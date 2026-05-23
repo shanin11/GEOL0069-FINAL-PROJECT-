@@ -1,6 +1,5 @@
 # Aral Sea Ecosystem Collapse: Water Body Change Detection Using Sentinel-2 and Machine Learning (2015–2024)
 ![Aral Sea](images/gmm_classification_maps.png)
-*Source: (NASA Earth Observatory, 2018)*
 
 ## Contents
 
@@ -286,8 +285,6 @@ This project was developed for GEOL0069 AI4EO 2025/2026 at UCL. Thank you to the
 
 - Micklin, P. (2007). 'The Aral Sea Disaster', The Aral Sea Disaster, 35, pp.47-72. doi:10.1146/annurev.earth.35.031306.140120.
   
-- NASA Earth Observatory (2018). World of Change: Shrinking Aral Sea, All Images. Available at: https://science.nasa.gov/earth/earth-observatory/world-of-change/aral-sea/all-images/. 
-
 - Tsamados, M. and Chen, W. (2022) GEOL0069: Artificial Intelligence for Earth Observation – course notebook. University College London. Available at: https://cpomucl.github.io/GEOL0069-AI4EO/intro.html
 
 - Xu, H. (2006). 'Modification of normalised difference water index (NDWI) to enhance open water features in remotely sensed imagery', International Journal of Remote Sensing, 27(14), pp.3025–3033. doi:10.1080/01431160600589179.
