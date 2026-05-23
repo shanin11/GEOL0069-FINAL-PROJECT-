@@ -224,7 +224,7 @@ Monitoring the Aral Sea basin by field survey would require international
 travel to Central Asia and further transport — producing around **2,000 kg CO₂**. 
 This entire computational pipeline produced less than 1 gram.
 
-![Environmental Cost Comparison](images/environmental_cost_new.png)
+![Environmental Cost Comparison](images/environmental_graph_new.png)
 
 *Comparison values are approximate estimates based on standard assumptions 
 and intended for illustrative purposes only.*
