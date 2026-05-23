@@ -1,5 +1,5 @@
 # Aral Sea Ecosystem Collapse: Water Body Change Detection Using Sentinel-2 and Machine Learning (2015–2024)
-![Aral Sea](images/aral_sea_banner.jpg)
+![Aral Sea](images/gmm_classification_maps.png)
 *Source: (NASA Earth Observatory, 2018)*
 
 ## Contents
