@@ -54,11 +54,11 @@ public health implications.
 This project classifies the basin into four land cover types — open water, 
 brine/shallow water, salt flat, and desert scrub — chosen because they 
 represent the sequential stages of ecological collapse, from open water 
-through progressive evaporation and salinisation to bare desert, allowing 
+through progressive evaporation to bare desert, allowing 
 the drying process to be tracked and quantified over time.
 
 Satellite remote sensing is well suited to this monitoring task — field 
-surveys in the basin are logistically difficult and prohibitively expensive 
+surveys in the basin are logistically difficult and expensive 
 at scale. Sentinel-2, with its 10–20m resolution, 5-day revisit cycle, and 
 freely accessible Copernicus archive, provides a consistent long-term record 
 for systematic change detection (ESA, 2015).
@@ -205,8 +205,7 @@ rather than genuine recovery.
 **Question 2 — GMM vs CNN:**
 Both methods confirmed the water recession trend and agreed on the 
 location of the main water bodies, suggesting the results are robust 
-despite methodological differences. The GMM produced more conservative, 
-interpretable results across four land cover classes. The CNN detected 
+despite methodological differences. The GMM produced more detailed, cleaner results across four land cover classes. The CNN detected 
 more scattered water features due to its use of spatial context, though 
 the 2015 map is affected by a known data limitation and should be 
 interpreted with caution.
@@ -226,7 +225,7 @@ interpreted with caution.
 
 Monitoring the Aral Sea basin by field survey would require international 
 travel to Central Asia and further transport — producing around **2,000 kg CO₂**. 
-This entire computational pipeline produced less than 1 gram.
+This entire computational pipeline produced less than 0.3 grams.
 
 ![Environmental Cost Comparison](images/environmental_graph_new.png)
 
