@@ -119,6 +119,11 @@ context around each pixel, trained on JRC Global Surface Water labels
 entirely independently of the GMM — making the comparison between the 
 two methods meaningful.
 
+[![Watch the video](https://img.youtube.com/vi/SRINJE38T_g/maxresdefault.jpg)](https://www.youtube.com/watch?v=SRINJE38T_g)
+
+*Click the image above to watch a full walkthrough of the three notebooks, 
+including key methodological decisions and results.*
+
 Take a look at the notebooks attached for further insight into the methodology. All notebooks are adapted from GEOL0069 Jupyter Notebook — attribution is 
 noted at the top of each notebook.
 
