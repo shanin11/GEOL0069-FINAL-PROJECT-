@@ -47,8 +47,7 @@ Asia's most active dust and salt storm sources, with storms growing more
 powerful as more of the lake bottom is exposed (Indoitu et al., 2015). 
 The dust is heavily contaminated with salt, fertilisers and pesticides, 
 causing throat cancer, anaemia and kidney disease in surrounding communities, 
-with infant mortality among the highest in the world (Encyclopaedia 
-Britannica, 2024). Tracking the ongoing expansion of bare surfaces is 
+with infant mortality among the highest in the world (Britannica, 2024). Tracking the ongoing expansion of bare surfaces is 
 therefore not only an environmental monitoring task but one with direct 
 public health implications.
 
