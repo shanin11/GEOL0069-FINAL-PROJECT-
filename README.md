@@ -156,10 +156,12 @@ present in the south.
 *Table 1: GMM land cover area estimates (km²) for the Aral Sea basin 
 across all four time periods.*
 
+*Please note: the 2015 values appear lower across all classes due to significant cloud cover in that year's composite, which masked large parts of the basin. This means the jump from 2015 to 2018 reflects missing data as much as genuine land cover change.*
+
 Desert scrub expanded by **4,964 km²** over the study period — the largest 
 land cover change in the basin. Open water interestingly showed a small increase of 
 85 km², likely reflecting interannual variability rather than genuine 
-recovery.
+recovery. 
 
 ### CNN Classification Maps
 
