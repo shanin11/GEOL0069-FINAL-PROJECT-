@@ -267,7 +267,7 @@ over time.
 dramatic Aral Sea shrinkage (1960–2000) falls outside the study period. 
 
 **Future work:** Testing the same pipeline on other shrinking 
-lakes such as Urmia Lake or Lake Chad would show how well the approach 
+lakes such as Lake Urmia or Lake Chad would show how well the approach 
 transfers to different regions.
 
 ## Acknowledgements
