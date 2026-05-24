@@ -156,7 +156,7 @@ present in the south.
 *Table 1: GMM land cover area estimates (km²) for the Aral Sea basin 
 across all four time periods.*
 
-*Please note: the 2015 values appear lower across all classes due to significant cloud cover in that year's composite, which masked large parts of the basin. This means the jump from 2015 to 2018 reflects missing data as much as genuine land cover change.*
+***Please note**: the 2015 values appear lower across all classes due to significant cloud cover in that year's composite, which masked large parts of the basin. This means the jump from 2015 to 2018 reflects missing data as much as land cover change.*
 
 Desert scrub expanded by **4,964 km²** over the study period — the largest 
 land cover change in the basin. Open water interestingly showed a small increase of 
@@ -232,7 +232,8 @@ This entire computational pipeline produced less than 0.3 grams.
 
 ![Environmental Cost Comparison](images/environmental_graph_new.png)
 
-*Comparison values are approximate estimates based on standard assumptions 
+*Figure 8: Comparison of project CO₂e emissions against common activities. 
+Comparison values are approximate estimates based on standard assumptions 
 and intended for illustrative purposes only.*
 
 Emissions per notebook (20W CPU, UK grid intensity 0.233 kg CO₂/kWh):
