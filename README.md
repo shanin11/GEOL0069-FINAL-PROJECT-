@@ -86,7 +86,7 @@ Three water-sensitive spectral indices are computed:
 - **MNDWI** (Modified Normalised Difference Water Index): (Green − SWIR) / (Green + SWIR) 
   — separates water from salt flat and bare soil (Xu, 2006)
 - **NDVI** (Normalised Difference Vegetation Index): (NIR − Red) / (NIR + Red) 
-  — distinguishes desert scrub from bare salt crust 
+  — distinguishes desert scrub from salt flat
 
 Water-focused indices are used rather than vegetation indices, as the key 
 challenge in the Aral Sea basin is separating open water and shallow brine 
